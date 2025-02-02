@@ -8,12 +8,18 @@ I followed along with the meta-ai model that Andrew used in the video and worked
 
 I also explored the Chatgpt model (Paid) and it was interesting to see the various outputs from a "normal" transformer (4o) and the reasoning transformer (o3-mini).
 
-Lastly, I explored the Ollama model (Free) and it was interesting to see the output from that model as well.
+Lastly, I explored the Ollama model (Free) and it was interesting to see the output from those models as well.
 
-I purposely asked for conjugation examples because that's something I remember having trouble with in Spanish class in High School (~ 30 years ago).
+I purposely asked for conjugation examples for more extensive help because that's something I remember having trouble with in Spanish class in High School (~ 30 years ago).
 
 ## Final Outcomes
+
+The meta-ai model and the paid ChatGPT 4o models seem to have done the best at following instructions and making it interactive.  The reasoning models didn't quite understand the interactivity that I was seeking. Some of the other open source models fell far short.
+
+ChatGPT is probably the best for a paid option I have access to (I don't currently subscribe to others). For open source, llama3.2:2b did a fine job.
 
 ## Anything else you'd like to add
 
 Glad to be in another of your bootcamps! The submission example process video is really helpful. It would be great to have a concise "expectations" video/section at the beginning of each week to help guide the work, especially if we want to figure it out on our own.
+
+I've had ollama + webui running on a moderately old (3 yrs) PC (11 gen i7, RTX 2060 Super 8gb) and it does slightly better than my M1 MacBook Pro w/ 16 gb that I've had running for > 1 yrs now. 
