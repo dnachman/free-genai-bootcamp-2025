@@ -34,14 +34,14 @@ Table of Contents:
 
 [llama3.2:3.2b](#llama3232b)
 
-[deepseek-r1:1.5b](#deepseek-r115b)  
+[deepseek-r1:1.5b](#deepseek-r115b)
 
 [deepseek-r1:7b](#deepseek-r17b)
 
 [mistral:latest](#mistrallatest)
 
-
 ### llama3.2:3.2b
+
 ¡Hola! Congratulations on trying out Spanish with me. I'd be happy to help you translate that sentence.
 
 First, let's take a look at the vocabulary and grammar rules we'll need for this translation:
@@ -63,28 +63,6 @@ We need to create a sentence structure that conveys both of these ideas.
 Here's your first clue: the word "dónde" is used in both parts of the sentence, but in different ways. Can you think of what those different ways might be?
 
 What do you think? Do you want to take a stab at translating the sentence or would you like more guidance?
-
-:arrow_right: ** llama3.2 (3.2b) **
-Excelente! Let's break down this sentence into more manageable pieces. To help you translate the sentence, let's start with some key vocabulary and grammar rules.
-
-**Vocabulary Table**
-
-| English Word  | Spanish Translation                  |
-| ------------- | ------------------------------------ |
-| I'm           | (we'll get to this one later)        |
-| not sure      | no idea                              |
-| where         | dónde                                |
-| to eat dinner | (we need to focus on "to eat" first) |
-
-**Grammar Rules**
-
-- The sentence is a question, which means it will have a rising intonation at the end.
-- We'll use the verb conjugation **usted**, which is used for singular "you".
-- To ask for recommendations, we can use the phrase "¿Dónde...?" (Where...)
-
-Now, let's focus on translating "I'm not sure where to eat dinner". Can you think of a possible translation using the vocabulary and grammar rules above?
-
-Take your time, and remember that I'll provide more guidance if needed!
 
 ### deepseek-r1:1.5b
 
@@ -159,6 +137,7 @@ _Translation Breakdown:_
 - **Comerías**: To eat (as an infinitive, though it's more common to use 'comer' without the -s in this context).
 
 ### mistral:latest
+
 ¡Hola! To help you translate the sentence, let me provide some vocabulary and basic sentence structure guidelines. Here are the key words and their translations:
 
 1. I - yo (You don't need this word since it is understood from context)
