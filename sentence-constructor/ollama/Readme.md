@@ -1,6 +1,6 @@
-## Ollama
+# Ollama
 
-### Input
+## Input
 
 Role: Spanish Language Teacher
 
@@ -28,13 +28,20 @@ At an easier level of guidance, you can provide the following hints:
 
 Student Input: I'm not sure where to eat dinner, where do you recommend
 
-### Output
+## Output
 
-[llama3.2 (3.2b)](#llama3.2:3.2b)
+Table of Contents:
 
-[deepseek-r1:1.5b](#deepseek-r1:1.5b)
+[llama3.2:3.2b](#llama3232b)
 
-:arrow_right: ** [llama3.2:3.2b] **
+[deepseek-r1:1.5b](#deepseek-r115b)  
+
+[deepseek-r1:7b](#deepseek-r17b)
+
+[mistral:latest](#mistrallatest)
+
+
+### llama3.2:3.2b
 ¡Hola! Congratulations on trying out Spanish with me. I'd be happy to help you translate that sentence.
 
 First, let's take a look at the vocabulary and grammar rules we'll need for this translation:
@@ -79,7 +86,7 @@ Now, let's focus on translating "I'm not sure where to eat dinner". Can you thin
 
 Take your time, and remember that I'll provide more guidance if needed!
 
-:arrow_right: ** [deepseek-r1:1.5b] **
+### deepseek-r1:1.5b
 
 <details type="reasoning" done="true" duration="3">
 <summary>Thought for 3 seconds</summary>
@@ -104,7 +111,7 @@ Explanation:
 - "Decidelo" translates directly to "decido," meaning "I am decided."
 - The phrase "lóxico;" means "I love it." This version simplifies the original sentence while maintaining clarity and grammar correctness.
 
-:arrow_right: ** deepseek-r1:7b **
+### deepseek-r1:7b
 
 <details type="reasoning" done="true" duration="18">
 <summary>Thought for 18 seconds</summary>
@@ -151,7 +158,7 @@ _Translation Breakdown:_
 - **Te recomendarías**: Would you recommend.
 - **Comerías**: To eat (as an infinitive, though it's more common to use 'comer' without the -s in this context).
 
-:arrow_right: ** mistral:latest **
+### mistral:latest
 ¡Hola! To help you translate the sentence, let me provide some vocabulary and basic sentence structure guidelines. Here are the key words and their translations:
 
 1. I - yo (You don't need this word since it is understood from context)
