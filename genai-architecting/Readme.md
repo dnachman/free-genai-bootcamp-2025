@@ -30,7 +30,7 @@ Teacher modules will include:
 
 Here is a high level overview of the solution:
 
-![Overview](./images/overview.png)
+![Overview](images/overview.png)
 
 # Module design
 
@@ -40,7 +40,7 @@ The purpose of this module is to create a chat based experience for the student 
 
 Of not in the design is the use of a database to store system prompts, user prompts and user responses (memory). This is to allow for the system to learn from the user responses and improve the user experience over time. Additionally, the system will use a router to do both input and output guardrails (to ensure nothing inappropriate or sensitive is sent or received from the LLM) as well as the ability to route to multiple LLMs if the particular language is better suited to a different LLM.
 
-![Sentence constructor](./images/sentence-constructor.png)
+![Sentence constructor](images/sentence-constructor.png)
 
 ## Core word flashcards
 
