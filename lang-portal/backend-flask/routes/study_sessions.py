@@ -6,6 +6,29 @@ import math
 def load(app):
   # todo /study_sessions POST
 
+  # Create a new study session
+  @app.route('/api/study-sessions', methods=['POST'])
+  @cross_origin()
+  def create_study_session():
+    try:
+      data = request.get_json()
+      group_id = data.get('group_id')
+      activity_id = data.get('activity_id')
+
+      if not group_id or not activity_id:
+        return jsonify({"error": "Missing group_id or activity_id"}), 400
+
+      cursor = app.db.cursor()
+      cursor.execute('''
+        INSERT INTO study_sessions (group_id, study_activity_id)
+        VALUES (?, ?)
+      ''', (group_id, activity_id))
+      app.db.commit()
+
+      return jsonify({"message": "Study session created successfully"}), 201
+    except Exception as e:
+      return jsonify({"error": str(e)}), 500
+
   @app.route('/api/study-sessions', methods=['GET'])
   @cross_origin()
   def get_study_sessions():
@@ -151,7 +174,28 @@ def load(app):
     except Exception as e:
       return jsonify({"error": str(e)}), 500
 
-  # todo POST /study_sessions/:id/review
+  # Create a new word review item
+  @app.route('/api/study-sessions/<id>/review', methods=['POST'])
+  @cross_origin()
+  def create_word_review_item(id):
+    try:
+      data = request.get_json()
+      word_id = data.get('word_id')
+      correct = data.get('correct')
+
+      if not word_id or correct is None:
+        return jsonify({"error": "Missing word_id or correct"}), 400
+
+      cursor = app.db.cursor()
+      cursor.execute('''
+        INSERT INTO word_review_items (study_session_id, word_id, correct)
+        VALUES (?, ?, ?)
+      ''', (id, word_id, correct))
+      app.db.commit()
+
+      return jsonify({"message": "Word review item created successfully"}), 201
+    except Exception as e:
+      return jsonify({"error": str(e)}), 500
 
   @app.route('/api/study-sessions/reset', methods=['POST'])
   @cross_origin()

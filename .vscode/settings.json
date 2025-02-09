@@ -1,3 +1,11 @@
 {
-  "CodeGPT.apiKey": "Ollama"
+  "CodeGPT.apiKey": "Ollama",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "lang-portal/backend-flask/words.db",
+      "name": "words.db"
+    }
+  ]
 }
