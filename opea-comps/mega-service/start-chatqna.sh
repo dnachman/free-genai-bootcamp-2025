@@ -12,6 +12,5 @@ cwd=$(pwd)
 # validate the model
 # curl http://${host_ip}:11434/api/generate -d '{"model": "llama3.2", "prompt":"What is Deep Learning?"}'
 
-cd $OPEA_COMPS
-docker build --no-cache -t opea/dataprep-redis:latest --build-arg https_proxy=$https_proxy \
-  --build-arg http_proxy=$http_proxy -f comps/dataprep/redis/langchain/Dockerfile .
+#cd $OPEA_EXAMPLES/ChatQnA/docker_compose/intel/cpu/aipc
+docker compose -f compose.yaml up
